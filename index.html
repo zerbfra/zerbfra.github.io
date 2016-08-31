@@ -1,23 +1,215 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="home">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-  <h1 class="page-heading">Posts</h1>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <title>zerbinati francesco</title>
+        <meta name="author" content="Zerbinati Francesco" />
+        <meta name="description" content="Zerbinati Francesco &mdash; Web, iOS and Salesforce Developer" />
+        <meta name="keywords"  content="zerbinati francesco, developer, ios, salesforce, web, php, nodejs" />
+        <meta name="Resource-type" content="Document" />
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        <link rel="stylesheet" type="text/css" href="style.css" />
 
-</div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="jquery.fullpage.js"></script>
+
+        <script type="text/javascript">
+            // init fullpagejs
+            $(document).ready(function() {
+                $('#fullpage').fullpage({
+                    //Navigation
+                    menu: '#menu',
+                    lockAnchors: false,
+                    navigation: false,
+                    navigationPosition: 'right',
+                    slidesNavigation: true,
+                    slidesNavPosition: 'bottom',
+
+                    //Scrolling
+                    css3: true,
+                    scrollingSpeed: 700,
+                    fitToSection: true,
+                    fitToSectionDelay: 1000,
+                    scrollBar: false,
+                    loopHorizontal: true,
+                    scrollOverflow: false,
+                    touchSensitivity: 15,
+                    normalScrollElementTouchThreshold: 5,
+
+                    //Accessibility
+                    keyboardScrolling: true,
+                    animateAnchor: true,
+                    recordHistory: true,
+
+                    //Design
+                    controlArrows: false,
+                    verticalCentered: true,
+                    resize : false,
+                    responsiveWidth: 570,
+                    responsiveHeight: 570,
+
+                });
+            });
+        </script>
+
+        <script src="https://use.typekit.net/uim1zbt.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    </head>
+
+    <body class="wrap wider">
+
+
+        <div id="fullpage">
+            <div class="section active" id="section0">
+                <div class="content">
+                    <div class="grid">
+                        <div class="unit half">
+                        </div>
+                        <div class="unit half">
+                            <p class="intro">Software engineer, iOS, Salesforce and Web Developer. I'm in love with NodeJS, HTML5 and PHP.</p>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="unit one-quarter">
+                            <p class="section-title">Expertise &mdash;</p>
+                            <ul>
+                                <li>Cloud Technologies</li>
+                                <li>Salesforce Certified Dev</li>
+                                <li>Web &amp; App UI/UX</li>
+                                <li>Wordpress Development</li>
+                            </ul>
+                        </div>
+                        <div class="unit one-quarter">
+                            <p class="section-title">Technologies &mdash;</p>
+                            <ul>
+                                <li>Javascript and NodeJS</li>
+                                <li>Objective-C and Swift</li>
+                                <li>Java, Apex and Visualforce</li>
+                                <li>MongoDB, SQL, Realm</li>
+                            </ul>
+                        </div>
+                        <div class="unit half">
+                            <p class="section-title">Values &mdash;</p>
+                            <p>I’ve always been fascinated by programming and also attracted by new technologies. Indeed, I really like being updated about new SDKs, APIs, frameworks and programming languages for my projects.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="section1">
+                <div class="content">
+                    <div class="grid">
+                        <div class="unit one-quarter">
+                            <p class="section-title">Curriculum &mdash;</p>
+                            <p>
+                                <strong>2016 &mdash; present</strong><br />
+                                Telnext,<br />
+                                Salesforce and Mobile Developer
+                            </p>
+                            <p>
+                                <strong>2015 &mdash; present</strong><br />
+                                andreagaleazzi.com,<br />
+                                IT Manager and Coordinator
+                            </p>
+                            <p>
+                                <strong>2013 &mdash; present</strong><br />
+                                Indie developer,<br />
+                                Price Radar development
+                            </p>
+                        </div>
+                        <div class="unit one-quarter">
+                            <p class="section-title">Education  &mdash;</p>
+                            <p>
+                                <strong>2016 &mdash; present</strong><br />
+                                Politecnico di Milano,<br />
+                                Master in Cloud Computing and Agile Methodologies
+                            </p>
+                            <p>
+                                <strong>2014 &mdash; 2016</strong><br />
+                                Politecnico di Milano,<br />
+                                Computer Science and Engineering
+                            </p>
+                            <p>
+                                <strong>2010 &mdash; 2014</strong><br />
+                                Università di Modena e Reggio Emilia,<br />
+                                Computer Science and Engineering
+                            </p>
+                        </div>
+                        <div class="unit half">
+                            <p class="section-title">Experience &mdash;</p>
+                            <p>I was born on October 28th, 1989.
+                                When I was twelve, I was creating my first website and some years later I started working with HTML and PHP. I have been a great CMS PHP-Nuke fan and I had been a contributing-developer of a very popular fork, PHP-Nuke Evolution. Especially, I developed a plugin called “NukeJMap”, which was a site-map generator. Moreover, thanks to my studies, I focused on Java and later I started writing in Objective-C. Meanwhile I learned HTML5 and Javascript languages. Today, I'm a master degree student at Politecnico di Milano and I'm an indie developer of iOS dev community.</p>
+                            <p>I created PriceRadar, a very useful app which allow people to save money tracking prices on Amazon, which is considerably popular in the AppStore. Recently I also released another iOS app called SeguiTreno, able to track Italian trains and give information about delays and strikes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="section2">
+                <div class="content">
+                    <div class="grid">
+                        <div class="unit half">
+                        </div>
+                        <div class="unit half">
+                            <p class="intro">I believe code is poetry and I love challenging tasks</p>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="unit one-quarter">
+                            <p class="section-title">Projects &mdash;</p>
+                            <ul>
+                                <li><a href="https://www.andreagaleazzi.com" target="_blank">andreagaleazzi.com</a></li>
+                                <li><a href="https://itunes.apple.com/it/app/priceradar-seguiprezzo-per/id790926556?mt=8" target="_blank">Price Radar</a></li>
+                            </ul>
+                        </div>
+                        <div class="unit one-quarter">
+                        </div>
+                        <div class="unit half">
+                            <p class="section-title">How I work &mdash;</p>
+                            <p>
+                                I really enjoy learning new stuff and working in groups and I’m always open mind to new ideas.
+                                As a developer I’m obviously addicted to the Apple ecosystem but without ignoring other platforms. I keep myself up-to-date reading computer science news. Last but not least, I really enjoy cooking and making pizza.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="section3">
+                <div class="content">
+                    <div class="grid">
+                        <div class="unit whole">
+                            <!--<img class="profile" src="./img/profile.jpg" />-->
+                        </div>
+                    </div>
+                    <div class="grid">
+
+                        <div class="unit one-quarter">
+                            <p class="section-title">Contact me &mdash;</p>
+                            <p>For general questions, or to just say hello.</p>
+                            <p><a href="mailto:me@zerbinatifrancesco.it">me@zerbinatifrancesco.it</a></p>
+                        </div>
+                        <div class="unit one-quarter">
+                        </div>
+                        <div class="unit half">
+                            <p class="section-title">Social &mdash;</p>
+                            <p>You can find me on<br> 
+                                <a href="https://twitter.com/zerbfra" target="_blank">Twitter @zerbfra</a><br>
+                                <a href="https://it.linkedin.com/in/zerbfra" target="_blank">LinkedIn</a><br>
+                                <a href="https://github.com/zerbfra" target="_blank">GitHub</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="scroll"><a><span>scroll down</span></a></div>
+
+        </div>
+
+        <div id="copyright">Made with love by <span class="love">♥</span> Zerbinati Francesco</div>
+    </body>
+</html>
