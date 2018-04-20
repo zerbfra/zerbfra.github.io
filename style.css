@@ -1,50 +1,50 @@
 body {
-    font-family:'Roboto Mono', monospace;
-    background-color: #1e1e1e;
-    color: white;
-    font-size: 15px;
+  font-family:'Roboto Mono', monospace;
+  background-color: #1e1e1e;
+  color: white;
+  font-size: 15px;
 }
 
 .main {
-    padding-left: 3em;
-    padding-top: 0.2em;
+  padding-left: 3em;
+  padding-top: 0.2em;
 }
 
 .intro {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .list {
-    margin-top: 3em;
+  margin-top: 3em;
 }
 
 h1 {
-    color:#F92672;
-    margin-bottom: 5px;
+  color:#F92672;
+  margin-bottom: 5px;
 }
 
 h2 {
-    color:#A6E22E;
-    font-size: 20px;
-    margin-bottom: -10px;
+  color:#A6E22E;
+  font-size: 20px;
+  margin-bottom: -10px;
 }
 
 ul {
-    list-style-type: none;
-  }
+  list-style-type: none;
+}
 
 a:link {
-    color: #66D9EF;
+  color: #66D9EF;
 }
 a:visited {
-    color: #66D9EF;
+  color: #66D9EF;
 }
 
 a:hover {
-    color: #FD971F;
+  color: #FD971F;
 }
 
 
 a.mail:link {
-    color: #FD971F;
+  color: #FD971F;
 }
