@@ -20,14 +20,14 @@ a {
 
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .main {
-  padding: 5rem 0;
+  padding: 2rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,7 @@ a {
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 3rem;
+  font-size: 3em;
 }
 
 .description {
@@ -53,6 +53,11 @@ a {
   justify-content: right;
 }
 
-.list {
+ul {
   list-style: none;
+  padding: 0;
+}
+
+li {
+  padding-top: 1rem;
 }
